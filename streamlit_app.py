@@ -36,4 +36,4 @@ passw.send_keys('44528765')
 
 boton = driver.find_element(By.CLASS_NAME, 'signin-password-action')
 boton.click()
-st.write(driver.driver.get_screenshot_as_png())
+st.write(driver.get_screenshot_as_png())
